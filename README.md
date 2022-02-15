@@ -1,5 +1,5 @@
 # Machine-Learning-Project
 machine learning task
 
-## Testing
-This is code
+## Objective
+Algorithm built to learn and recognise pictures of flowers
