@@ -121,6 +121,7 @@ plt.legend(loc='upper right')
 plt.title('Training and Validation Loss')
 plt.show()
 
+#Augmenting images to help increase training value dataset size
 data_augmentation = keras.Sequential(
   [
     layers.RandomFlip("horizontal",
@@ -140,6 +141,7 @@ for images, _ in train_ds.take(1):
     plt.imshow(augmented_images[0].numpy().astype("uint8"))
     plt.axis("off")
 
+#A more efficient approach below making use of augmented images in the dataset
 model = Sequential([
   data_augmentation,
   layers.Rescaling(1./255),
