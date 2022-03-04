@@ -65,8 +65,11 @@ A neural network is a series of algorithms that are utilised to recognise the re
 ## Back-propagation
 A way of propagating the total loss back into the neural network to know how much of the loss every node is responsible for. From this the responsible node can be amended. This program uses a loss function to implement this.
 
-Before Back-Propagation:
+## Augmented images 
+Since the dataset for training is relatively small we can introduce new augmented images to increase the training data set so the program is less likely to capture unwanted details of images.
+
 ![Screen Shot 2022-03-04 at 7 59 21 AM](https://user-images.githubusercontent.com/99629733/156678907-8527626c-8a20-420c-9259-7ac5b864baf9.png)
 
-After Back-Propoagation:
+After using augmentated images:
+
 ![Screen Shot 2022-03-04 at 6 54 26 AM](https://user-images.githubusercontent.com/99629733/156672955-23c618d2-91e9-4f94-be2d-192d9bacec33.png)
