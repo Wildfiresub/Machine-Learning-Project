@@ -41,7 +41,7 @@ The regression model wouldn't fit this particular model because it is used for c
 It graphs out a continuous value to try and predict the line for unknown values.
 
 ## Clustering Model
-The clustering model could fit this model had the data not been split up into validation and training. Since the clustering model is a form of unsupervised learning, it isn't given pre-labelled data, rather it has to cluster similar data together. 
+The clustering model could fit this model had the data not been split up into validation and training. Since the clustering model is a form of unsupervised learning, it isn't given pre-labelled data, rather it has to cluster similar data together. If the data given isn't split up into validation and training it would be unsupervised learning which would result in the clustering model as it not have any direction initially.
 
 It can be visually represented by sets:
 
