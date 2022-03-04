@@ -72,4 +72,6 @@ Since the dataset for training is relatively small we can introduce new augmente
 
 After using augmentated images:
 
-![Screen Shot 2022-03-04 at 6 54 26 AM](https://user-images.githubusercontent.com/99629733/156672955-23c618d2-91e9-4f94-be2d-192d9bacec33.png)
+![Screen Shot 2022-03-04 at 8 45 33 AM](https://user-images.githubusercontent.com/99629733/156683297-8f5211a2-9c08-43f0-b818-bdb1f9e31b48.png)
+
+
